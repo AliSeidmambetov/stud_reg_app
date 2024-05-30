@@ -16,5 +16,5 @@
 ### Клонирование репозитория
 Сначала клонируйте репозиторий на ваш локальный компьютер:
 ```bash
-git clone https://github.com/yourusername/student-app.git
-cd student-app
+git clone https://github.com/yourusername/stud_reg_app.git
+cd stud_reg_app
