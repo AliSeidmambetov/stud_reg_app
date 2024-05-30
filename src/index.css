@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    background: #078888;
 }
 
 h1 {
@@ -36,7 +36,6 @@ header {
     flex-grow: 1;
     padding: 10px;
     gap: 5px;
-    overflow: hidden;
 }
 
 section {
@@ -65,7 +64,8 @@ button {
     background-color: #34bb13;
 }
 
-input, select {
+input,
+select {
     padding: 6px;
     margin: 6px 0;
     box-sizing: border-box;
@@ -100,7 +100,12 @@ input:focus {
     border-color: initial;
 }
 
-li input, li select {
+li {
+    background-color: #aeffa1;
+}
+
+li input,
+li select {
     margin-right: 8px;
     flex: 1;
     border: 1px solid #ddd;
@@ -110,7 +115,7 @@ li input, li select {
 }
 
 li input:hover {
-    border: 1px solid #4CAF50;
+    border: 1px solid #4caf50;
 }
 
 li button:hover {
@@ -121,7 +126,7 @@ section h2 {
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #4caf50;
     padding-bottom: 5px;
 }
 
@@ -143,7 +148,10 @@ li select {
     padding: 6px;
 }
 
-.students, .subjects, .grades {
+.students,
+.subjects,
+.grades {
+    background-color: #f5dcdc;
     flex: 1;
     overflow-y: hidden;
     max-height: calc(100vh - 150px);
@@ -159,11 +167,9 @@ li select {
     max-width: 120px;
 }
 
-
 .grades input[type="text"] {
     max-width: 80px;
 }
-
 
 @media (max-width: 1200px) {
     section {
