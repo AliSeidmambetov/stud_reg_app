@@ -18,8 +18,8 @@ const App = () => {
     ]);
 
     const [grades, setGrades] = useState([
-        { studentId: 1, subjectId: 1, date: '2023-05-01', grade: 'A' },
-        { studentId: 2, subjectId: 2, date: '2023-05-02', grade: 'B' },
+        { studentId: 1, subjectId: 1, date: '2024-05-01', grade: 'A' },
+        { studentId: 2, subjectId: 2, date: '2024-05-02', grade: 'B' },
         { studentId: 3, subjectId: 3, date: '', grade: '' }
     ]);
 
